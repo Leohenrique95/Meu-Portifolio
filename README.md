@@ -8,8 +8,6 @@ A escolha foi intencional. Portfólio é uma página estática — não precisa 
 
 - **Zero configuração** — abre no navegador e funciona
 - **Fácil manutenção** — qualquer editor de texto serve
-- **Deploy imediato** — basta jogar no GitHub Pages e está no ar
-- **Sem dependências quebrando** — nenhum `npm install` para se preocupar
 
 ## Tecnologias
 
@@ -32,7 +30,7 @@ Sugestões de nomes para manter organizado:
 | ARC GHOST (Pac-Man) | `arcghost.gif` |
 | NEXO (Dashboard) | `nexo.gif` |
 | Snake | `snake.gif` |
-| Paixão Pisos | `paixaopisos.png` |
+| Paixão Pisos | `paixaopisos.gif` |
 
 ## Estrutura
 
