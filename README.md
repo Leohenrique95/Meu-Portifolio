@@ -8,6 +8,8 @@ A escolha foi intencional. Portfólio é uma página estática — não precisa 
 
 - **Zero configuração** — abre no navegador e funciona
 - **Fácil manutenção** — qualquer editor de texto serve
+- **Deploy imediato** — basta jogar no GitHub Pages e está no ar
+- **Sem dependências quebrando** — nenhum `npm install` para se preocupar
 
 ## Tecnologias
 
@@ -23,23 +25,36 @@ A escolha foi intencional. Portfólio é uma página estática — não precisa 
 3. Vá em **Settings → Pages → Branch: main → Save**
 4. Em alguns minutos o site estará disponível em `https://leohenrique95.github.io`
 
+## Como adicionar os GIFs dos projetos
+
+Crie uma pasta `assets/` na raiz e substitua os blocos de placeholder nos cards pelo caminho da mídia:
+
+```html
+<!-- Antes -->
+<div class="gif-placeholder"> ... </div>
+
+<!-- Depois -->
+<img src="assets/arcghost.gif" alt="ARC GHOST gameplay" />
+```
+
 Sugestões de nomes para manter organizado:
 
 | Projeto | Arquivo sugerido |
 |---|---|
-| ARC GHOST (Pac-Man) | `arcghost.gif` |
-| NEXO (Dashboard) | `nexo.gif` |
-| Snake | `snake.gif` |
-| Paixão Pisos | `paixaopisos.gif` |
+| ARC GHOST (Pac-Man) | `assets/arcghost.gif` |
+| NEXO (Dashboard) | `assets/nexo.gif` |
+| Snake | `assets/snake.gif` |
+| Paixão Pisos | `assets/paixaopisos.png` |
 
 ## Estrutura
 
 ```
 leohenrique95.github.io/
 ├── index.html       ← tudo está aqui
-├── arcghost.gif
-├── nexo.gif
-├── ...
+├── assets/          ← crie esta pasta para as mídias
+│   ├── arcghost.gif
+│   ├── nexo.gif
+│   └── ...
 └── README.md
 ```
 
